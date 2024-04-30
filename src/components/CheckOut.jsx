@@ -6,7 +6,7 @@ import { currencyFormatter } from '../util/formatting.js';
 import Input from './UI/Input.jsx';
 import Button from './UI/Button.jsx';
 import UserProgressContext from '../store/UserProgressContext.jsx';
-import useHttp from '../hooks/useHttp.jsx';
+import useHttp from '../hooks/useHttp.js';
 import Error from './Error.jsx';
 
 const requestConfig = {
